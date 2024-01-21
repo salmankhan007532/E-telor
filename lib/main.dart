@@ -1,4 +1,5 @@
 
+import 'package:e_telor/src/ui/screens/auth/sign_in/Sign_in_screen.dart';
 import 'package:e_telor/src/ui/screens/onboarding/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:  const SplashScreen(),
+        home:  const SignInScreen(),
       ),
     );
   }
